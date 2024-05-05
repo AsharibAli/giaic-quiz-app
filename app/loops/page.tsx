@@ -152,7 +152,7 @@ const QuizApp: React.FC = () => {
         <p className="text-black">
           Built with ❤️ by{" "}
           <a
-            href="https://twitter.com/0xAsharib"
+            href="https://github.com/AsharibAli/"
             target="_blank"
             className="font-bold text-black no-underline hover:underline"
           >

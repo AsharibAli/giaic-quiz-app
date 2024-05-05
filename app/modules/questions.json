@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Which type of loop runs a fixed number of times based on an index variable?",
+    "a": "for loop",
+    "b": "while loop",
+    "c": "do-while loop",
+    "d": "foreach loop",
+    "correct": "a"
+  },
+  {
+    "question": "What is a characteristic of a while loop?",
+    "a": "Runs a fixed number of times",
+    "b": "Runs only if the condition is initially true",
+    "c": "Always runs at least once",
+    "d": "Uses a special iterator variable",
+    "correct": "b"
+  },
+  {
+    "question": "Which statement is true about a do-while loop?",
+    "a": "It checks the condition before each iteration",
+    "b": "It always executes at least once",
+    "c": "It is exclusive to arrays",
+    "d": "It is identical to a for loop",
+    "correct": "b"
+  },
+  {
+    "question": "What type of loop is best suited to iterate over the properties of an object?",
+    "a": "for loop",
+    "b": "while loop",
+    "c": "for...in loop",
+    "d": "for...of loop",
+    "correct": "c"
+  },
+  {
+    "question": "Which loop structure iterates over iterable objects like arrays or strings?",
+    "a": "while loop",
+    "b": "for...in loop",
+    "c": "do-while loop",
+    "d": "for...of loop",
+    "correct": "d"
+  },
+  {
+    "question": "How can you exit a loop before it completes all its iterations?",
+    "a": "continue statement",
+    "b": "break statement",
+    "c": "return statement",
+    "d": "exit statement",
+    "correct": "b"
+  },
+  {
+    "question": "What does the continue statement do in a loop?",
+    "a": "Terminates the loop completely",
+    "b": "Skips the remaining code in the current iteration",
+    "c": "Throws an exception",
+    "d": "Restarts the loop with a new index",
+    "correct": "b"
+  },
+  {
+    "question": "What will happen in an infinite loop?",
+    "a": "The loop will stop after 100 iterations",
+    "b": "The loop will terminate with a break statement",
+    "c": "The loop will continue executing indefinitely",
+    "d": "The loop will automatically resolve itself",
+    "correct": "c"
+  },
+  {
+    "question": "Which of the following loops is best suited for numerical iteration over arrays?",
+    "a": "for loop",
+    "b": "for...in loop",
+    "c": "for...of loop",
+    "d": "do-while loop",
+    "correct": "a"
+  },
+  {
+    "question": "What type of loop should you use when the number of iterations is unknown beforehand?",
+    "a": "for loop",
+    "b": "while loop",
+    "c": "for...in loop",
+    "d": "foreach loop",
+    "correct": "b"
+  }
+]
