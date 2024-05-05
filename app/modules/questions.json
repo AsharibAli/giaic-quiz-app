@@ -1,82 +1,82 @@
 [
   {
-    "question": "Which type of loop runs a fixed number of times based on an index variable?",
-    "a": "for loop",
-    "b": "while loop",
-    "c": "do-while loop",
-    "d": "foreach loop",
+    "question": "What is the purpose of JavaScript modules?",
+    "a": "To separate code into reusable chunks",
+    "b": "To add comments to the code",
+    "c": "To enable multi-threaded programming",
+    "d": "To convert JavaScript to another language",
     "correct": "a"
   },
   {
-    "question": "What is a characteristic of a while loop?",
-    "a": "Runs a fixed number of times",
-    "b": "Runs only if the condition is initially true",
-    "c": "Always runs at least once",
-    "d": "Uses a special iterator variable",
+    "question": "Which keyword is used to export a function from a module?",
+    "a": "return",
+    "b": "export",
+    "c": "module",
+    "d": "public",
     "correct": "b"
   },
   {
-    "question": "Which statement is true about a do-while loop?",
-    "a": "It checks the condition before each iteration",
-    "b": "It always executes at least once",
-    "c": "It is exclusive to arrays",
-    "d": "It is identical to a for loop",
+    "question": "What file extension is typically used for ES6 modules?",
+    "a": ".txt",
+    "b": ".js",
+    "c": ".md",
+    "d": ".mod",
     "correct": "b"
   },
   {
-    "question": "What type of loop is best suited to iterate over the properties of an object?",
-    "a": "for loop",
-    "b": "while loop",
-    "c": "for...in loop",
-    "d": "for...of loop",
-    "correct": "c"
-  },
-  {
-    "question": "Which loop structure iterates over iterable objects like arrays or strings?",
-    "a": "while loop",
-    "b": "for...in loop",
-    "c": "do-while loop",
-    "d": "for...of loop",
+    "question": "Which of the following statements allows you to import specific exports from a module?",
+    "a": "require",
+    "b": "fetch",
+    "c": "load",
+    "d": "import",
     "correct": "d"
   },
   {
-    "question": "How can you exit a loop before it completes all its iterations?",
-    "a": "continue statement",
-    "b": "break statement",
-    "c": "return statement",
-    "d": "exit statement",
+    "question": "What will happen if you attempt to import a non-existent export from a module?",
+    "a": "It will return null",
+    "b": "It will create a new export",
+    "c": "It will cause a syntax error",
+    "d": "It will throw an error at runtime",
+    "correct": "d"
+  },
+  {
+    "question": "What is a named export in JavaScript modules?",
+    "a": "A function that uses the `export` keyword",
+    "b": "An export that uses a specific name and can be imported with that name",
+    "c": "An export that has no name",
+    "d": "An import that is automatically loaded",
     "correct": "b"
   },
   {
-    "question": "What does the continue statement do in a loop?",
-    "a": "Terminates the loop completely",
-    "b": "Skips the remaining code in the current iteration",
-    "c": "Throws an exception",
-    "d": "Restarts the loop with a new index",
-    "correct": "b"
-  },
-  {
-    "question": "What will happen in an infinite loop?",
-    "a": "The loop will stop after 100 iterations",
-    "b": "The loop will terminate with a break statement",
-    "c": "The loop will continue executing indefinitely",
-    "d": "The loop will automatically resolve itself",
-    "correct": "c"
-  },
-  {
-    "question": "Which of the following loops is best suited for numerical iteration over arrays?",
-    "a": "for loop",
-    "b": "for...in loop",
-    "c": "for...of loop",
-    "d": "do-while loop",
+    "question": "Which syntax allows importing everything from a module as an object?",
+    "a": "import * as name from 'module'",
+    "b": "import all from 'module'",
+    "c": "require('module')",
+    "d": "fetch * as name from 'module'",
     "correct": "a"
   },
   {
-    "question": "What type of loop should you use when the number of iterations is unknown beforehand?",
-    "a": "for loop",
-    "b": "while loop",
-    "c": "for...in loop",
-    "d": "foreach loop",
+    "question": "How many default exports can a module have?",
+    "a": "Zero",
+    "b": "Multiple",
+    "c": "Exactly one",
+    "d": "Unlimited",
+    "correct": "c"
+  },
+  {
+    "question": "Which of the following is an advantage of using ES6 modules?",
+    "a": "Enables JavaScript to run in the backend",
+    "b": "Allows splitting code into smaller, maintainable files",
+    "c": "Increases processing speed",
+    "d": "Makes all variables globally accessible",
     "correct": "b"
+  },
+  {
+    "question": "What is the purpose of a `package.json` file in a project using Node.js modules?",
+    "a": "To list all module dependencies",
+    "b": "To store the project's main HTML file",
+    "c": "To describe the UI structure",
+    "d": "To import styles",
+    "correct": "a"
   }
 ]

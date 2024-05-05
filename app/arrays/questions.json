@@ -1,82 +1,82 @@
 [
   {
-    "question": "Which type of loop runs a fixed number of times based on an index variable?",
-    "a": "for loop",
-    "b": "while loop",
-    "c": "do-while loop",
-    "d": "foreach loop",
+    "question": "How do you declare an empty array in JavaScript?",
+    "a": "let myArray = [];",
+    "b": "let myArray = {};",
+    "c": "let myArray = '';",
+    "d": "let myArray = null;",
     "correct": "a"
   },
   {
-    "question": "What is a characteristic of a while loop?",
-    "a": "Runs a fixed number of times",
-    "b": "Runs only if the condition is initially true",
-    "c": "Always runs at least once",
-    "d": "Uses a special iterator variable",
-    "correct": "b"
-  },
-  {
-    "question": "Which statement is true about a do-while loop?",
-    "a": "It checks the condition before each iteration",
-    "b": "It always executes at least once",
-    "c": "It is exclusive to arrays",
-    "d": "It is identical to a for loop",
-    "correct": "b"
-  },
-  {
-    "question": "What type of loop is best suited to iterate over the properties of an object?",
-    "a": "for loop",
-    "b": "while loop",
-    "c": "for...in loop",
-    "d": "for...of loop",
+    "question": "Which of the following is a valid way to access the first element of an array?",
+    "a": "array.first",
+    "b": "array(0)",
+    "c": "array[0]",
+    "d": "array.getFirst()",
     "correct": "c"
   },
   {
-    "question": "Which loop structure iterates over iterable objects like arrays or strings?",
-    "a": "while loop",
-    "b": "for...in loop",
-    "c": "do-while loop",
-    "d": "for...of loop",
-    "correct": "d"
-  },
-  {
-    "question": "How can you exit a loop before it completes all its iterations?",
-    "a": "continue statement",
-    "b": "break statement",
-    "c": "return statement",
-    "d": "exit statement",
-    "correct": "b"
-  },
-  {
-    "question": "What does the continue statement do in a loop?",
-    "a": "Terminates the loop completely",
-    "b": "Skips the remaining code in the current iteration",
-    "c": "Throws an exception",
-    "d": "Restarts the loop with a new index",
-    "correct": "b"
-  },
-  {
-    "question": "What will happen in an infinite loop?",
-    "a": "The loop will stop after 100 iterations",
-    "b": "The loop will terminate with a break statement",
-    "c": "The loop will continue executing indefinitely",
-    "d": "The loop will automatically resolve itself",
+    "question": "Which statement correctly returns the number of elements in an array named 'data'?",
+    "a": "data.size",
+    "b": "data.count()",
+    "c": "data.length",
+    "d": "data.capacity",
     "correct": "c"
   },
   {
-    "question": "Which of the following loops is best suited for numerical iteration over arrays?",
-    "a": "for loop",
-    "b": "for...in loop",
-    "c": "for...of loop",
-    "d": "do-while loop",
+    "question": "Which method allows you to add new elements to the end of an array?",
+    "a": "shift",
+    "b": "unshift",
+    "c": "push",
+    "d": "pop",
+    "correct": "c"
+  },
+  {
+    "question": "What is the index of the last element in an array 'items' that contains 5 elements?",
+    "a": "0",
+    "b": "4",
+    "c": "5",
+    "d": "6",
+    "correct": "b"
+  },
+  {
+    "question": "Which array method creates a new array by filtering elements that meet a specified condition?",
+    "a": "filter",
+    "b": "forEach",
+    "c": "reduce",
+    "d": "map",
     "correct": "a"
   },
   {
-    "question": "What type of loop should you use when the number of iterations is unknown beforehand?",
-    "a": "for loop",
-    "b": "while loop",
-    "c": "for...in loop",
-    "d": "foreach loop",
+    "question": "Which method is used to combine all elements of an array into a single string?",
+    "a": "join",
+    "b": "slice",
+    "c": "concat",
+    "d": "splice",
+    "correct": "a"
+  },
+  {
+    "question": "Which method creates a new array by modifying each element in the original array?",
+    "a": "reduce",
+    "b": "filter",
+    "c": "map",
+    "d": "concat",
+    "correct": "c"
+  },
+  {
+    "question": "What method removes the last element from an array and returns it?",
+    "a": "shift",
+    "b": "pop",
+    "c": "slice",
+    "d": "unshift",
+    "correct": "b"
+  },
+  {
+    "question": "Which array method returns the index of the first occurrence of a specified element, or -1 if it isn't found?",
+    "a": "findIndex",
+    "b": "indexOf",
+    "c": "includes",
+    "d": "find",
     "correct": "b"
   }
 ]
