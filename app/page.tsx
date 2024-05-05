@@ -11,6 +11,7 @@ import {
   PopoverContent,
   Popover,
 } from "@/components/ui/popover";
+import { JSX, SVGProps } from "react";
 
 export default function Component() {
   return (
@@ -95,7 +96,9 @@ export default function Component() {
   );
 }
 
-function ChevronDownIcon(props) {
+function ChevronDownIcon(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       {...props}
@@ -114,7 +117,9 @@ function ChevronDownIcon(props) {
   );
 }
 
-function MountainIcon(props) {
+function MountainIcon(
+  props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>
+) {
   return (
     <svg
       {...props}
