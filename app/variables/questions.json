@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Which keyword is used to declare a variable that can be reassigned in JavaScript?",
+    "a": "let",
+    "b": "const",
+    "c": "var",
+    "d": "static",
+    "correct": "a"
+  },
+  {
+    "question": "Which keyword is used to declare a variable with a block scope in JavaScript?",
+    "a": "global",
+    "b": "static",
+    "c": "var",
+    "d": "let",
+    "correct": "d"
+  },
+  {
+    "question": "What does the 'const' keyword in JavaScript prevent?",
+    "a": "Redeclaration",
+    "b": "Reassignment",
+    "c": "Block scoping",
+    "d": "Accessing global variables",
+    "correct": "b"
+  },
+  {
+    "question": "Which TypeScript feature ensures a variable can only hold a specific type of value?",
+    "a": "Interfaces",
+    "b": "Classes",
+    "c": "Type annotations",
+    "d": "Packages",
+    "correct": "c"
+  },
+  {
+    "question": "What value does an uninitialized variable hold in JavaScript?",
+    "a": "null",
+    "b": "undefined",
+    "c": "NaN",
+    "d": "empty",
+    "correct": "b"
+  },
+  {
+    "question": "In TypeScript, which keyword allows you to explicitly specify the type of a variable?",
+    "a": "instanceof",
+    "b": "typeof",
+    "c": "type",
+    "d": "as",
+    "correct": "c"
+  },
+  {
+    "question": "Which of the following is a valid TypeScript type annotation?",
+    "a": "let age: integer = 30;",
+    "b": "let age = '30' as integer;",
+    "c": "let age: number = 30;",
+    "d": "let age! = 30;",
+    "correct": "c"
+  },
+  {
+    "question": "In TypeScript, which type can store values of any data type?",
+    "a": "string",
+    "b": "unknown",
+    "c": "number",
+    "d": "any",
+    "correct": "d"
+  },
+  {
+    "question": "Which JavaScript variable keyword has function-level scope?",
+    "a": "let",
+    "b": "const",
+    "c": "global",
+    "d": "var",
+    "correct": "d"
+  },
+  {
+    "question": "Which TypeScript type ensures a variable can only have `true` or `false` values?",
+    "a": "boolean",
+    "b": "bit",
+    "c": "logical",
+    "d": "binary",
+    "correct": "a"
+  }
+]

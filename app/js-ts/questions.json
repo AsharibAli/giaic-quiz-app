@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the primary use of JavaScript in web development?",
+    "a": "To style web pages",
+    "b": "To structure web pages",
+    "c": "To add interactivity to web pages",
+    "d": "To create server-side applications",
+    "correct": "c"
+  },
+  {
+    "question": "Which company developed JavaScript in the 1990s?",
+    "a": "Microsoft",
+    "b": "Netscape",
+    "c": "Google",
+    "d": "Apple",
+    "correct": "b"
+  },
+  {
+    "question": "What is a common abbreviation for JavaScript?",
+    "a": "JS",
+    "b": "JVM",
+    "c": "JSE",
+    "d": "JDK",
+    "correct": "a"
+  },
+  {
+    "question": "Which of the following is a common data type in JavaScript?",
+    "a": "Record",
+    "b": "Object",
+    "c": "Matrix",
+    "d": "Tuple",
+    "correct": "b"
+  },
+  {
+    "question": "How do you declare a variable that cannot be reassigned in JavaScript?",
+    "a": "let",
+    "b": "var",
+    "c": "const",
+    "d": "immutable",
+    "correct": "c"
+  },
+  {
+    "question": "What feature does TypeScript add to JavaScript?",
+    "a": "Automated testing",
+    "b": "Static typing",
+    "c": "CSS integration",
+    "d": "Server management",
+    "correct": "b"
+  },
+  {
+    "question": "How can you compile a TypeScript file to JavaScript?",
+    "a": "Use the command `ts-compile`",
+    "b": "Run `ts-node` in the terminal",
+    "c": "Run `tsc` (TypeScript Compiler) in the terminal",
+    "d": "Write a TypeScript program directly",
+    "correct": "c"
+  },
+  {
+    "question": "What file extension is used for TypeScript files?",
+    "a": ".java",
+    "b": ".js",
+    "c": ".ts",
+    "d": ".jsx",
+    "correct": "c"
+  },
+  {
+    "question": "Which TypeScript feature helps identify and fix errors before running the code?",
+    "a": "Unit tests",
+    "b": "Type checking",
+    "c": "API testing",
+    "d": "Code splitting",
+    "correct": "b"
+  },
+  {
+    "question": "What does TypeScript's `interface` keyword allow you to define?",
+    "a": "HTML elements",
+    "b": "Backend services",
+    "c": "Structured data types",
+    "d": "Database schemas",
+    "correct": "c"
+  }
+]

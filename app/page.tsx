@@ -43,6 +43,12 @@ export default function Component() {
             <DropdownMenuItem>
               <Link href="/modules">JS Modules Quiz</Link>
             </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href="/variables">JS Variables Quiz</Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href="/js-ts">JS & TS Intro Quiz</Link>
+            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </header>
@@ -72,6 +78,12 @@ export default function Component() {
               </div>
               <div>
                 <Link href="/modules">JS Modules Quiz</Link>
+              </div>
+              <div>
+                <Link href="/variables">JS Variables Quiz</Link>
+              </div>
+              <div>
+                <Link href="/js-ts">JS & TS Intro Quiz</Link>
               </div>
             </div>
           </PopoverContent>
