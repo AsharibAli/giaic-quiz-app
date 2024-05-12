@@ -11,6 +11,17 @@ import {
   PopoverContent,
   Popover,
 } from "@/components/ui/popover";
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+  AlertDialogTrigger,
+} from "@/components/ui/alert-dialog";
 import { JSX, SVGProps } from "react";
 
 export default function Component() {
@@ -62,7 +73,7 @@ export default function Component() {
             what they learn (The Topics) in the Class.
           </p>
         </div>
-        <Popover>
+        {/* <Popover>
           <PopoverTrigger asChild>
             <Button className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-[#0e0e0e] shadow transition-colors hover:bg-gray-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50">
               🔥 Test Your Knowledge 🔥
@@ -87,7 +98,37 @@ export default function Component() {
               </div>
             </div>
           </PopoverContent>
-        </Popover>
+        </Popover> */}
+        <AlertDialog>
+          <AlertDialogTrigger asChild>
+            <Button variant="outline">Problem Statement</Button>
+          </AlertDialogTrigger>
+          <AlertDialogContent>
+            <AlertDialogHeader>
+              <AlertDialogTitle>
+                ➡️ Teacher & Student Ambassabdor{" "}
+                <a href="https://github.com/AsharibAli/" target="_blank">
+                  <strong>Asharib Ali</strong>
+                </a>{" "}
+                ❤️
+              </AlertDialogTitle>
+              <AlertDialogDescription>
+                During my (Monday 2-5) GIAC onsite class, I noticed we lack
+                activities for students to apply and test their programming
+                knowledge effectively. Given the logistical challenge of
+                engaging over 1500 students, I've created a quiz application.
+                This app allows for direct participation of students through
+                multiple quizzes based on class topics we teach, It also help us
+                to see who's perfoming well and have interest in learning in our
+                on-class.
+              </AlertDialogDescription>
+            </AlertDialogHeader>
+            <AlertDialogFooter>
+              <AlertDialogCancel>Cancel</AlertDialogCancel>
+              <AlertDialogAction>Continue</AlertDialogAction>
+            </AlertDialogFooter>
+          </AlertDialogContent>
+        </AlertDialog>
       </main>
       <footer className="flex w-full shrink-0 flex-col items-center gap-2 border-t border-[#1e1e1e] px-4 py-6 sm:flex-row md:px-6">
         <p className="text-xs text-gray-500 dark:text-gray-400">
