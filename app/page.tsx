@@ -73,32 +73,7 @@ export default function Component() {
             what they learn (The Topics) in the Class.
           </p>
         </div>
-        {/* <Popover>
-          <PopoverTrigger asChild>
-            <Button className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-[#0e0e0e] shadow transition-colors hover:bg-gray-200 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50">
-              🔥 Test Your Knowledge 🔥
-            </Button>
-          </PopoverTrigger>
-          <PopoverContent align="end" className="w-56">
-            <div className="grid gap-2">
-              <div>
-                <Link href="/loops">JS Loops Quiz</Link>
-              </div>
-              <div>
-                <Link href="/arrays">JS Arrays Quiz</Link>
-              </div>
-              <div>
-                <Link href="/modules">JS Modules Quiz</Link>
-              </div>
-              <div>
-                <Link href="/variables">JS Variables Quiz</Link>
-              </div>
-              <div>
-                <Link href="/js-ts">JS & TS Intro Quiz</Link>
-              </div>
-            </div>
-          </PopoverContent>
-        </Popover> */}
+
         <AlertDialog>
           <AlertDialogTrigger asChild>
             <Button variant="outline">Problem Statement</Button>
@@ -116,11 +91,11 @@ export default function Component() {
                 During my (Monday 2-5) GIAC onsite class, I noticed we lack
                 activities for students to apply and test their programming
                 knowledge effectively. Given the logistical challenge of
-                engaging over 1500 students, I've created a quiz application.
+                engaging over 1500 students, I have created a quiz application.
                 This app allows for direct participation of students through
                 multiple quizzes based on class topics we teach, It also help us
-                to see who's perfoming well and have interest in learning in our
-                on-class.
+                to see who is perfoming well and have interest in learning in
+                our on-class.
               </AlertDialogDescription>
             </AlertDialogHeader>
             <AlertDialogFooter>
