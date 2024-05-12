@@ -1,82 +1,82 @@
 [
   {
-    "question": "Which type of loop runs a fixed number of times based on an index variable?",
-    "a": "for loop",
-    "b": "while loop",
-    "c": "do-while loop",
-    "d": "foreach loop",
+    "question": "What is the main purpose of using loops in JavaScript?",
+    "a": "To perform repetitive tasks efficiently",
+    "b": "To generate random numbers",
+    "c": "To create user interfaces",
+    "d": "To debug JavaScript code",
     "correct": "a"
   },
   {
-    "question": "What is a characteristic of a while loop?",
-    "a": "Runs a fixed number of times",
-    "b": "Runs only if the condition is initially true",
-    "c": "Always runs at least once",
-    "d": "Uses a special iterator variable",
-    "correct": "b"
-  },
-  {
-    "question": "Which statement is true about a do-while loop?",
-    "a": "It checks the condition before each iteration",
-    "b": "It always executes at least once",
-    "c": "It is exclusive to arrays",
-    "d": "It is identical to a for loop",
-    "correct": "b"
-  },
-  {
-    "question": "What type of loop is best suited to iterate over the properties of an object?",
-    "a": "for loop",
-    "b": "while loop",
-    "c": "for...in loop",
-    "d": "for...of loop",
-    "correct": "c"
-  },
-  {
-    "question": "Which loop structure iterates over iterable objects like arrays or strings?",
-    "a": "while loop",
-    "b": "for...in loop",
-    "c": "do-while loop",
-    "d": "for...of loop",
+    "question": "Which loop will always execute the code block at least once before checking the condition?",
+    "a": "For loop",
+    "b": "While loop",
+    "c": "Switch loop",
+    "d": "Do-while loop",
     "correct": "d"
   },
   {
-    "question": "How can you exit a loop before it completes all its iterations?",
-    "a": "continue statement",
-    "b": "break statement",
-    "c": "return statement",
-    "d": "exit statement",
+    "question": "Which loop should you use to iterate over the properties of an object?",
+    "a": "While loop",
+    "b": "For-in loop",
+    "c": "Do-while loop",
+    "d": "For-of loop",
     "correct": "b"
   },
   {
-    "question": "What does the continue statement do in a loop?",
-    "a": "Terminates the loop completely",
-    "b": "Skips the remaining code in the current iteration",
-    "c": "Throws an exception",
-    "d": "Restarts the loop with a new index",
-    "correct": "b"
-  },
-  {
-    "question": "What will happen in an infinite loop?",
-    "a": "The loop will stop after 100 iterations",
-    "b": "The loop will terminate with a break statement",
-    "c": "The loop will continue executing indefinitely",
-    "d": "The loop will automatically resolve itself",
+    "question": "What happens if the condition of a loop is always `true`?",
+    "a": "The loop will exit immediately",
+    "b": "The loop will skip to the next iteration",
+    "c": "The loop will run indefinitely",
+    "d": "The loop will return null",
     "correct": "c"
   },
   {
-    "question": "Which of the following loops is best suited for numerical iteration over arrays?",
-    "a": "for loop",
-    "b": "for...in loop",
-    "c": "for...of loop",
-    "d": "do-while loop",
+    "question": "Which keyword can be used to exit a loop early?",
+    "a": "continue",
+    "b": "return",
+    "c": "end",
+    "d": "break",
+    "correct": "d"
+  },
+  {
+    "question": "What are the three main components of a `for` loop?",
+    "a": "Declaration, definition, execution",
+    "b": "Type, scope, yield",
+    "c": "Initialization, condition, update",
+    "d": "Try, catch, finally",
+    "correct": "c"
+  },
+  {
+    "question": "In a `for` loop, which component sets the starting value of the loop counter?",
+    "a": "Initialization",
+    "b": "Condition",
+    "c": "Update",
+    "d": "Execution",
     "correct": "a"
   },
   {
-    "question": "What type of loop should you use when the number of iterations is unknown beforehand?",
-    "a": "for loop",
-    "b": "while loop",
-    "c": "for...in loop",
-    "d": "foreach loop",
+    "question": "In a `for` loop, which component determines when to stop the loop?",
+    "a": "Initialization",
+    "b": "Condition",
+    "c": "Update",
+    "d": "Execution",
+    "correct": "b"
+  },
+  {
+    "question": "Which `for` loop component changes the value of the loop counter?",
+    "a": "Initialization",
+    "b": "Condition",
+    "c": "Update",
+    "d": "Execution",
+    "correct": "c"
+  },
+  {
+    "question": "How would you write a `for` loop to iterate from 0 up to 5, inclusive?",
+    "a": "for (let i = 0; i < 5; i++)",
+    "b": "for (let i = 0; i <= 5; i++)",
+    "c": "for (let i = 0; i > 5; i++)",
+    "d": "for (let i = 0; i >= 5; i++)",
     "correct": "b"
   }
 ]
