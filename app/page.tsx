@@ -70,8 +70,8 @@ export default function Component() {
             Take the Quiz
           </h1>
           <p className="max-w-[600px] text-gray-400 md:text-xl">
-            A quiz app for GIAIC students to test their Knowledge (onsite) about
-            what they learn (The Topics) in the Class.
+            A quiz app for (Monday 2-5) GIAIC students to test their Knowledge
+            (onsite) about what they learn (The Topics) in the Class.
           </p>
         </div>
 
