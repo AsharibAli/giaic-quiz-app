@@ -1,0 +1,84 @@
+[
+  {
+    "question": "What is asynchronous programming?",
+    "a": "A programming style where operations happen sequentially",
+    "b": "A programming style where operations can happen independently of the main program flow",
+    "c": "A type of synchronous programming",
+    "d": "A programming style that only uses loops",
+    "correct": "b"
+  },
+  {
+    "question": "Why is asynchronous programming important?",
+    "a": "It makes the code run slower",
+    "b": "It helps manage tasks that take an unknown amount of time to complete, like network requests",
+    "c": "It simplifies writing code",
+    "d": "It only works with databases",
+    "correct": "b"
+  },
+  {
+    "question": "Which of the following is a common use case for asynchronous programming?",
+    "a": "Running a for loop",
+    "b": "Performing a network request",
+    "c": "Declaring variables",
+    "d": "Reading static files",
+    "correct": "b"
+  },
+  {
+    "question": "What is a callback function in asynchronous programming?",
+    "a": "A function that runs after another function has finished",
+    "b": "A function that calls another function",
+    "c": "A function that runs immediately",
+    "d": "A function that sets a timeout",
+    "correct": "a"
+  },
+
+  {
+    "question": "What is the keyword used to declare an asynchronous function?",
+    "a": "async",
+    "b": "await",
+    "c": "promise",
+    "d": "then",
+    "correct": "a"
+  },
+  {
+    "question": "Which keyword is used to wait for a promise to resolve in an async function?",
+    "a": "wait",
+    "b": "then",
+    "c": "async",
+    "d": "await",
+    "correct": "d"
+  },
+  {
+    "question": "What does the 'await' keyword do?",
+    "a": "Makes the function synchronous",
+    "b": "Pauses the function execution until the promise settles",
+    "c": "Rejects a promise",
+    "d": "Declares an asynchronous function",
+    "correct": "b"
+  },
+  {
+    "question": "How do you handle errors in an async function?",
+    "a": "Using a try-catch block",
+    "b": "Using if-else statements",
+    "c": "Using an async-catch block",
+    "d": "Using a promise-catch block",
+    "correct": "a"
+  },
+  {
+    "question": "Which method is used to chain actions for a promise?",
+    "a": "await",
+    "b": "then",
+    "c": "catch",
+    "d": "finally",
+    "correct": "b"
+  },
+
+  {
+    "question": "Which method is used to handle a rejected promise?",
+    "a": "then",
+    "b": "await",
+    "c": "catch",
+    "d": "async",
+    "correct": "c"
+  }
+]
