@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is a promise in JavaScript?",
+    "a": "A function that runs immediately",
+    "b": "An object representing the eventual completion or failure of an asynchronous operation",
+    "c": "A method for synchronous operations",
+    "d": "A type of callback function",
+    "correct": "b"
+  },
+  {
+    "question": "What is callback hell?",
+    "a": "A state of having too many functions",
+    "b": "Nested callbacks that make code hard to read and maintain",
+    "c": "An error caused by too many promises",
+    "d": "A technique for handling multiple callbacks",
+    "correct": "b"
+  },
+  {
+    "question": "Which of the following is a solution to callback hell?",
+    "a": "Using more nested callbacks",
+    "b": "Using promises",
+    "c": "Using loops",
+    "d": "Using synchronous code",
+    "correct": "b"
+  },
+  {
+    "question": "What does the 'then' method do in a promise?",
+    "a": "Declares an asynchronous function",
+    "b": "Handles a rejected promise",
+    "c": "Chains actions to be performed after a promise is fulfilled",
+    "d": "Catches errors in an asynchronous function",
+    "correct": "c"
+  },
+  {
+    "question": "What is the purpose of the 'catch' method in promises?",
+    "a": "To handle rejected promises",
+    "b": "To declare an asynchronous function",
+    "c": "To chain actions after a promise",
+    "d": "To create a new promise",
+    "correct": "a"
+  },
+  {
+    "question": "What does the 'async' keyword do when placed before a function?",
+    "a": "Makes the function run synchronously",
+    "b": "Marks the function as asynchronous, allowing the use of 'await' inside it",
+    "c": "Immediately resolves a promise",
+    "d": "Rejects a promise",
+    "correct": "b"
+  },
+  {
+    "question": "What is a common benefit of using async/await over promises?",
+    "a": "It makes the code run faster",
+    "b": "It makes asynchronous code look and behave more like synchronous code",
+    "c": "It eliminates the need for callbacks",
+    "d": "It prevents all errors",
+    "correct": "b"
+  },
+  {
+    "question": "How do you create a new promise?",
+    "a": "Using the 'new Promise()' constructor",
+    "b": "Using the 'async' keyword",
+    "c": "Using the 'await' keyword",
+    "d": "Using a callback function",
+    "correct": "a"
+  },
+  {
+    "question": "Which of the following can be a state of a promise?",
+    "a": "Waiting",
+    "b": "Paused",
+    "c": "Fulfilled",
+    "d": "Sleeping",
+    "correct": "c"
+  },
+  {
+    "question": "What happens when a promise is rejected?",
+    "a": "The code execution stops immediately",
+    "b": "The 'then' method is called",
+    "c": "The 'catch' method is called",
+    "d": "The function becomes synchronous",
+    "correct": "c"
+  }
+]
