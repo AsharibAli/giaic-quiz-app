@@ -7,11 +7,6 @@ import {
   DropdownMenu,
 } from "@/components/ui/dropdown-menu";
 import {
-  PopoverTrigger,
-  PopoverContent,
-  Popover,
-} from "@/components/ui/popover";
-import {
   AlertDialog,
   AlertDialogAction,
   AlertDialogCancel,
@@ -22,7 +17,6 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
-import { JSX, SVGProps } from "react";
 import { ChevronDownIcon, MountainIcon } from "@/components/icons/icons";
 
 export default function Component() {
