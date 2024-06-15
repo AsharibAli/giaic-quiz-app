@@ -4,7 +4,6 @@ import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import Confetti from "react-confetti";
 import { useWindowSize } from "react-use"; // To get the screen dimensions dynamically
-// In your main quiz component
 import variableQuestions from "./questions.json";
 
 // Define a TypeScript type for the quiz data
@@ -90,7 +89,8 @@ const QuizApp: React.FC = () => {
       {showConfetti && <Confetti width={width} height={height} />}
 
       <header className="fixed top-0 z-50 w-full bg-gray-800 py-2 text-center text-white shadow-lg">
-        Total Variables Quizzes: 10
+        ➡️ Challenge Your JS Variables Knowledge: Tackling{" "}
+        <strong> Question {currentQuiz + 1} </strong> of 10 🔥
       </header>
       <div className="w-full max-w-md md:max-w-lg mx-4 overflow-auto rounded-lg bg-white shadow-2xl transform transition-all duration-300 hover:scale-105">
         {!isFinished ? (
@@ -129,8 +129,7 @@ const QuizApp: React.FC = () => {
             <h2 className="my-4 text-center">
               You answered{" "}
               <b>
-                {" "}
-                {score} out of {quizData.length}{" "}
+                {score} out of {quizData.length}
               </b>{" "}
               Variables Questions Correctly.
             </h2>

@@ -90,7 +90,8 @@ const QuizApp: React.FC = () => {
       {showConfetti && <Confetti width={width} height={height} />}
 
       <header className="fixed top-0 z-50 w-full bg-gray-800 py-2 text-center text-white shadow-lg">
-        Total Asynchronous (2) Programming Quizzes: 10
+        ➡️ Challenge Your JS Asynchronous (2) Knowledge: Tackling{" "}
+        <strong> Question {currentQuiz + 1} </strong> of 10 🔥
       </header>
       <div className="w-full max-w-md md:max-w-lg mx-4 overflow-auto rounded-lg bg-white shadow-2xl transform transition-all duration-300 hover:scale-105">
         {!isFinished ? (
