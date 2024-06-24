@@ -1,0 +1,90 @@
+[
+  {
+    "question": "What is Object-Oriented Programming (OOP) in TypeScript?",
+    "a": "A paradigm based on procedures and functions",
+    "b": "A paradigm based on objects and classes",
+    "c": "A paradigm based on HTML and CSS",
+    "d": "A paradigm based on databases",
+    "correct": "b"
+  },
+  {
+    "question": "Why do we use Object-Oriented Programming?",
+    "a": "For faster execution",
+    "b": "For more structured and maintainable code",
+    "c": "For reducing memory usage",
+    "d": "For better graphic design",
+    "correct": "b"
+  },
+  {
+    "question": "Which keyword is used to define a class in TypeScript?",
+    "a": "function",
+    "b": "class",
+    "c": "object",
+    "d": "method",
+    "correct": "b"
+  },
+  {
+    "question": "What is an object in TypeScript?",
+    "a": "A collection of functions",
+    "b": "A blueprint for creating classes",
+    "c": "An instance of a class",
+    "d": "A type of variable",
+    "correct": "c"
+  },
+  {
+    "question": "How is TypeScript different from JavaScript in terms of OOP?",
+    "a": "TypeScript does not support classes",
+    "b": "TypeScript has built-in support for static type checking",
+    "c": "TypeScript is not object-oriented",
+    "d": "TypeScript can only be used on the backend",
+    "correct": "b"
+  },
+  {
+    "question": "Which TypeScript feature helps in defining the structure of an object?",
+    "a": "Interfaces",
+    "b": "Functions",
+    "c": "Variables",
+    "d": "Arrays",
+    "correct": "a"
+  },
+  {
+    "question": "What keyword in TypeScript allows you to create a new instance of a class?",
+    "a": "create",
+    "b": "make",
+    "c": "new",
+    "d": "instantiate",
+    "correct": "c"
+  },
+  {
+    "question": "Which of the following is a key concept of OOP that TypeScript supports?",
+    "a": "Encapsulation",
+    "b": "Polymorphism",
+    "c": "Inheritance",
+    "d": "All of the above",
+    "correct": "d"
+  },
+  {
+    "question": "What is the purpose of a constructor in a TypeScript class?",
+    "a": "To define methods",
+    "b": "To initialize objects properties",
+    "c": "To perform arithmetic operations",
+    "d": "To import modules",
+    "correct": "b"
+  },
+  {
+    "question": "What is a method in the context of OOP in TypeScript?",
+    "a": "A special type of variable",
+    "b": "A function defined within a class",
+    "c": "A property that holds data",
+    "d": "A constructor function",
+    "correct": "b"
+  },
+  {
+    "question": "What is a function in the context of OOP in TypeScript?",
+    "a": "A variable that stores data",
+    "b": "A block of code that performs a specific task",
+    "c": "A function defined within a class, also known as a method",
+    "d": "A data type used to represent objects",
+    "correct": "c"
+  }
+]

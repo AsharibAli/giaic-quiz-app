@@ -41,6 +41,9 @@ export default function Component() {
           </DropdownMenuTrigger>
           <DropdownMenuContent align="end">
             <DropdownMenuItem>
+              <Link href="/oop">TS OOP Quiz</Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
               <Link href="/asynchronous2">Asynchronous (2) Quiz</Link>
             </DropdownMenuItem>
             <DropdownMenuItem>
