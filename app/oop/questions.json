@@ -60,9 +60,8 @@
     "a": "Encapsulation",
     "b": "Polymorphism",
     "c": "Inheritance",
-    "d": "Abstraction",
-    "e": "All of the above",
-    "correct": "e"
+    "d": "All of the above",
+    "correct": "d"
   },
   {
     "question": "What is the purpose of a constructor in a TypeScript class?",
