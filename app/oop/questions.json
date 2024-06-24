@@ -60,8 +60,9 @@
     "a": "Encapsulation",
     "b": "Polymorphism",
     "c": "Inheritance",
-    "d": "All of the above",
-    "correct": "d"
+    "d": "Abstraction",
+    "e": "All of the above",
+    "correct": "e"
   },
   {
     "question": "What is the purpose of a constructor in a TypeScript class?",
@@ -72,19 +73,11 @@
     "correct": "b"
   },
   {
-    "question": "What is a method in the context of OOP in TypeScript?",
-    "a": "A special type of variable",
-    "b": "A function defined within a class",
-    "c": "A property that holds data",
-    "d": "A constructor function",
-    "correct": "b"
-  },
-  {
-    "question": "What is a function in the context of OOP in TypeScript?",
-    "a": "A variable that stores data",
-    "b": "A block of code that performs a specific task",
-    "c": "A function defined within a class, also known as a method",
-    "d": "A data type used to represent objects",
+    "question": "What are methods and functions in the context of OOP in TypeScript?",
+    "a": "Methods are standalone code blocks, while functions are always part of a class",
+    "b": "Methods and functions are interchangeable terms in TypeScript OOP",
+    "c": "Methods are functions defined within a class, while functions can exist independently",
+    "d": "Methods are used for data storage, while functions perform operations",
     "correct": "c"
   }
 ]
