@@ -64,6 +64,9 @@ export default function Component() {
             <DropdownMenuItem>
               <Link href="/js-ts">JS & TS Intro Quiz</Link>
             </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href="/react">React Intro Quiz</Link>
+            </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
       </header>

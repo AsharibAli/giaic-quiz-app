@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "a": "Hyper Text Markup Language",
+    "b": "Home Tool Markup Language",
+    "c": "Hyperlinks and Text Markup Language",
+    "d": "Hyper Tool Multi Language",
+    "correct": "a"
+  },
+  {
+    "question": "What does CSS stand for?",
+    "a": "Colorful Style Sheets",
+    "b": "Creative Style Sheets",
+    "c": "Cascading Style Sheets",
+    "d": "Computer Style Sheets",
+    "correct": "c"
+  },
+  {
+    "question": "Why do we use HTML, CSS, and JavaScript?",
+    "a": "To structure web content, style it, and add interactivity",
+    "b": "To manage databases and server configurations",
+    "c": "To create desktop applications",
+    "d": "To develop operating systems",
+    "correct": "a"
+  },  
+  {
+    "question": "Which of the following is a JavaScript data type?",
+    "a": "String",
+    "b": "Number",
+    "c": "Boolean",
+    "d": "All of the above",
+    "correct": "d"
+  },
+  {
+    "question": "In JavaScript, which of the following is used to declare a variable?",
+    "a": "var",
+    "b": "let",
+    "c": "const",
+    "d": "All of the above",
+    "correct": "d"
+  },
+  {
+    "question": "What does DOM stand for?",
+    "a": "Document Object Model",
+    "b": "Data Object Model",
+    "c": "Document Order Model",
+    "d": "Display Object Management",
+    "correct": "a"
+  },
+  {
+    "question": "What is the virtual DOM in ReactJS?",
+    "a": "A direct copy of the actual DOM",
+    "b": "An in-memory representation of the real DOM elements",
+    "c": "A database of DOM elements",
+    "d": "A programming language",
+    "correct": "b"
+  },
+  {
+    "question": "What is Next.js primarily used for?",
+    "a": "Styling React components",
+    "b": "Managing databases",
+    "c": "Creating Full-Stack React applications",
+    "d": "Testing JavaScript code",
+    "correct": "c"
+  },
+  {
+    "question": "Which command is used to create a new Next.js application?",
+    "a": "npx create-next-app",
+    "b": "npm install next",
+    "c": "next new app",
+    "d": "npm init next-app",
+    "correct": "a"
+  },
+  {
+    "question": "What is the default port for running a Next.js application in development mode?",
+    "a": "8080",
+    "b": "3000",
+    "c": "8000",
+    "d": "5000",
+    "correct": "b"
+  }
+]
