@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is a React component?",
+    "a": "A tool for styling websites",
+    "b": "A reusable piece of the user interface",
+    "c": "A type of database",
+    "d": "A server-side script",
+    "correct": "b"
+  },
+  {
+    "question": "What is a React Fragment used for?",
+    "a": "To manage component state",
+    "b": "To group multiple elements without adding extra nodes to the DOM",
+    "c": "To style components",
+    "d": "To handle events",
+    "correct": "b"
+  },
+  {
+    "question": "How do you embed a JavaScript expression inside JSX?",
+    "a": "Using quotes",
+    "b": "Using curly braces {}",
+    "c": "Using parentheses ()",
+    "d": "Using square brackets []",
+    "correct": "b"
+  },
+  {
+    "question": "Which syntax allows you to write HTML inside JavaScript in React?",
+    "a": "HTML5",
+    "b": "XML",
+    "c": "JSX",
+    "d": "CSS",
+    "correct": "c"
+  },
+  {
+    "question": "How do you pass data from a parent to a child component in React?",
+    "a": "Using state",
+    "b": "Using props",
+    "c": "Using context",
+    "d": "Using hooks",
+    "correct": "b"
+  },
+  {
+    "question": "What hook is used to add state to a functional component?",
+    "a": "useEffect",
+    "b": "useState",
+    "c": "useContext",
+    "d": "useReducer",
+    "correct": "b"
+  },
+  {
+    "question": "How do you apply a CSS class to an element in JSX?",
+    "a": "class='myClass'",
+    "b": "className='myClass'",
+    "c": "css='myClass'",
+    "d": "styleName='myClass'",
+    "correct": "b"
+  },
+  {
+    "question": "What must each item in a list have when rendered in React?",
+    "a": "A unique key",
+    "b": "An ID attribute",
+    "c": "A class name",
+    "d": "Inline styles",
+    "correct": "a"
+  },
+  {
+    "question": "How can you conditionally render content in JSX?",
+    "a": "Using if statements inside JSX",
+    "b": "Using ternary operators or &&",
+    "c": "Using switch statements inside JSX",
+    "d": "Using loops inside JSX",
+    "correct": "b"
+  },
+  {
+    "question": "What is the purpose of the `props` in a React component?",
+    "a": "To manage the component's internal state",
+    "b": "To pass data from parent to child components",
+    "c": "To handle user inputs",
+    "d": "To style the component",
+    "correct": "b"
+  }
+]
