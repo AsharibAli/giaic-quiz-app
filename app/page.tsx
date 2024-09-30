@@ -68,7 +68,10 @@ export default function Component() {
               <Link href="/react">React Intro Quiz</Link>
             </DropdownMenuItem>
             <DropdownMenuItem>
-              <Link href="/class-3">Class Three Quiz</Link>
+              <Link href="/react-3">React Three Quiz</Link>
+            </DropdownMenuItem>
+            <DropdownMenuItem>
+              <Link href="/react-4">React Four Quiz</Link>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>

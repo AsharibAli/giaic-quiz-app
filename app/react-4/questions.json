@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is Tailwind CSS?",
+    "a": "A JavaScript framework",
+    "b": "A CSS utility-first framework",
+    "c": "A database management tool",
+    "d": "A version control system",
+    "correct": "b"
+  },
+  {
+    "question": "How do you apply a margin of 4 units in Tailwind CSS?",
+    "a": "m-4",
+    "b": "margin-4",
+    "c": "m4",
+    "d": "margin4",
+    "correct": "a"
+  },
+  {
+    "question": "Which class in Tailwind CSS sets the text color to blue?",
+    "a": "text-blue-500",
+    "b": "text-color-blue",
+    "c": "blue-text",
+    "d": "color-blue-500",
+    "correct": "a"
+  },
+  {
+    "question": "What causes a React component to re-render?",
+    "a": "Changing props or state",
+    "b": "Modifying CSS",
+    "c": "Updating the database",
+    "d": "Altering the URL",
+    "correct": "a"
+  },
+  {
+    "question": "What is the purpose of React's state?",
+    "a": "To pass data from parent to child components",
+    "b": "To manage data that changes over time within a component",
+    "c": "To style React components",
+    "d": "To handle routing in React applications",
+    "correct": "b"
+  },
+  {
+    "question": "What is Virtual DOM in React?",
+    "a": "A real representation of the UI in the browser",
+    "b": "A lightweight copy of the actual DOM used for efficient updates",
+    "c": "A server-side representation of the UI",
+    "d": "A tool for styling React components",
+    "correct": "b"
+  },
+  {
+    "question": "What is Client-Side Rendering (CSR) in Next.js?",
+    "a": "Rendering pages on the server before sending to the client",
+    "b": "Rendering pages directly in the browser using JavaScript",
+    "c": "Rendering pages using static HTML files",
+    "d": "Rendering pages using serverless functions",
+    "correct": "b"
+  },
+  {
+    "question": "Which Next.js function is used for Client-Side Rendering?",
+    "a": "getServerSideProps",
+    "b": "getStaticProps",
+    "c": "useEffect",
+    "d": "getInitialProps",
+    "correct": "c"
+  },
+  {
+    "question": "In React, what is the difference between state and props?",
+    "a": "State is immutable, props are mutable",
+    "b": "State is managed within the component, props are passed from parent to child",
+    "c": "State is used for styling, props are used for data",
+    "d": "There is no difference",
+    "correct": "b"
+  },
+  {
+    "question": "What is reconciliation in React?",
+    "a": "The process of merging two components into one",
+    "b": "The process of updating the DOM with changes in the virtual DOM",
+    "c": "The process of fetching data from an API",
+    "d": "The process of styling components",
+    "correct": "b"
+  }
+]
